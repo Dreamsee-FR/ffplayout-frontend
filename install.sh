@@ -469,7 +469,7 @@ EOF
         echo "------------------------------------------------------------------------------"
 
         cd /opt
-        git clone https://github.com/ffplayout/ffplayout-engine.git
+        git clone https://github.com/Dreamsee-FR/ffplayout-engine.git
         cd ffplayout-engine
 
         virtualenv -p python3 venv
@@ -507,7 +507,7 @@ EOF
         echo "------------------------------------------------------------------------------"
 
         cd /var/www
-        git clone https://github.com/ffplayout/ffplayout-api.git
+        git clone https://github.com/Dreamsee-FR/ffplayout-api.git
         cd ffplayout-api
 
         virtualenv -p python3 venv
@@ -552,7 +552,7 @@ EOF
         echo "------------------------------------------------------------------------------"
 
         cd /var/www
-        git clone https://github.com/ffplayout/ffplayout-frontend.git
+        git clone https://github.com/Dreamsee-FR/ffplayout-frontend.git
         cd ffplayout-frontend
 
         ln -s "$mediaPath" /var/www/ffplayout-frontend/static/
